@@ -5,7 +5,7 @@
  * Author: Vietmoz
  * Author URI: http://thietkeweb.vietmoz.com/vietmoz
  * Description: Plugin Pure KenhSanGo custom for kenhsango.com
- * Version: 1.0.10
+ * Version: 1.0.11
  * Text Domain: pure
  */
 
