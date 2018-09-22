@@ -129,4 +129,6 @@ jQuery('document').ready(function () {
     jQuery('.site-header .head_top ul.info li:nth-child(1)').prepend('<i class="far fa-map-marker"></i>');
     jQuery('.site-header .head_top ul.info li:nth-child(2)').prepend('<i class="far fa-envelope"></i>');
     jQuery('.site-header .head_top ul.info li:nth-child(3)').prepend('<i class="far fa-clock"></i>');
+
+    jQuery('.site-header .hotline_header .img').html('<img src="https://kenhsango.com/wp-content/uploads/2018/09/42252251-2178197199114716-8258297876195573760-n.png" alt="call">')
 });

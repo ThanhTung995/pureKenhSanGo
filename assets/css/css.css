@@ -26,8 +26,7 @@
     background: #47B64B !important;
 }
 ul.products .sale-badge{
-    background: #47B64B !important;
-    height: 34px;
+    background: url(https://kenhsango.com/wp-content/uploads/2018/09/42242917-495630580902917-5025377298442878976-n.png) no-repeat;
 }
 
 .elementor-230 .elementor-element.elementor-element-a5803ff .hot_products{
@@ -318,4 +317,8 @@ h3.entry-title.loop__title:hover a{
 }
 .sidebar h4:hover a{
     color: #47B64B !important;
+}
+
+p.form-submit input#submit:hover{
+    border-color: transparent;
 }
