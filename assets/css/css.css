@@ -299,3 +299,23 @@ button.single_add_to_cart_button.button.clone:hover{
 .elementor-element.elementor-element-5b78b79.elementor-widget.elementor-widget-html svg{
     color: #47B64B !important;
 }
+
+.nav-links a:hover {
+    border: 1px solid #47B64B !important;
+    color: #47B64B !important;
+}
+.nav-links a:hover svg{
+    color: #47B64B !important;
+}
+a.read-more{
+    color: #47B64B !important;
+}
+h3.entry-title.loop__title:hover a{
+    color: #47B64B !important;
+}
+.search_thuong_hieu li:hover a, .sidebar .product-categories li:hover a, .sidebar .widget_categories li:hover a{
+    color: #47B64B !important;
+}
+.sidebar h4:hover a{
+    color: #47B64B !important;
+}
