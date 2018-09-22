@@ -124,5 +124,7 @@ jQuery(document).ready(function () {
     if (width <= 767) {
         jQuery('body.single-product .call-button').html('<i class="pure fa-phone"></i><p>Bấm vào để gọi</p>')
     }
+
+    jQuery('.pure-woocommerce-single__upper .single_add_to_cart_button').text('Đặt mua online giá ưu đãi hơn');
 });
 
