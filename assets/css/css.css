@@ -18,6 +18,10 @@ body.single-product .call-button p {
     background: #CF2D2D !important;
 }
 
+a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-primary-bg--hover {
+    background: #CF2D2D !important;
+}
+
 .pure-woocommerce-single__upper .single_add_to_cart_button{
     white-space: inherit;
     font-size: 14px;
