@@ -166,9 +166,6 @@ span.back-to-top.bg-primary-color{
 .site-header .search_header .cate_header ul li:hover a {
     color: #47B64B;
 }
-a:focus, a:hover, .entry-content a, .site-header.desktop.v2 .site-navigation>ul>li.btn.sfHover a, .site-header.desktop.v2 .site-navigation>ul>li.btn:hover a, .site-header.desktop.v2 .site-navigation>ul>li.current-menu-item>a, .site-header.desktop.v2 .site-navigation>ul>li.sfHover>a, .term-description a, .btn.alt, .button.alt, button.alt, input[type=button].alt, input[type=reset].alt, input[type=submit].alt, .pagination .nav-links>:hover, .page-links>a:hover, .page-links>span:not(.page-links-title){
-    color: #47B64B !important;
-}
 .site-header .main_header_menu .danh_muc_sp .danh-muc-san-pham-small .sub-menu .sub-menu li a:hover {
     color: #47B64B !important;
 }
