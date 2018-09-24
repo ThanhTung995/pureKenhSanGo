@@ -141,6 +141,32 @@ body.single-product .call-button svg {
 body.single-product .call-button p{
     margin-top: -40px !important;
 }
+@media screen and (max-width: 991px){
+    .menu_fixed_mobile {
+        background: #F4F4F4;
+        padding: 0px !important;
+        position: sticky !important;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 99999999999999;
+        -webkit-animation: moveDown 0.5s;
+        animation: moveDown 0.5s;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes moveDown {
+        0%   {top: -59px;}
+        100% {top: 0px;}
+    }
+
+    /* Standard syntax */
+    @keyframes moveDown {
+        0%   {top: -59px;}
+        100% {top: 0px;}
+    }
+}
+
+
 @media screen and (max-width: 767px){
     .single_add_to_cart_button2{
         width: 100%;

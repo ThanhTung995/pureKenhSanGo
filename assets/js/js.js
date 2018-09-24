@@ -184,3 +184,16 @@ jQuery(document).ready(function () {
     },20000)
 });
 
+jQuery(document).scroll(function () {
+    var scrollTop = jQuery(document).scrollTop();
+
+    if(scrollTop > 50){
+        jQuery('.post-type-archive-product .site-header.mobile').addClass('menu_fixed_mobile');
+        jQuery('.archive.tax-product_cat .site-header.mobile').addClass('menu_fixed_mobile');
+    }else{
+        jQuery('.post-type-archive-product .site-header.mobile').removeClass('menu_fixed_mobile');
+        jQuery('.archive.tax-product_cat .site-header.mobile').removeClass('menu_fixed_mobile');
+    }
+});
+
+
