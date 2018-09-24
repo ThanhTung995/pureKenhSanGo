@@ -135,7 +135,12 @@ body.single-product .call-button{
 a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-primary-bg--hover{
     background: #2B8B2F !important;
 }
-
+body.single-product .call-button svg {
+    margin-left: 0px !important;
+}
+body.single-product .call-button p{
+    margin-top: 0px !important;
+}
 @media screen and (max-width: 767px){
     .single_add_to_cart_button2{
         width: 100%;
@@ -145,5 +150,9 @@ a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-
     }
     .message_order_product{
         display: none !important;
+    }
+    section#box_cate_product {
+        padding-right: 15px !important;
+        padding-left: 20px !important;
     }
 }
