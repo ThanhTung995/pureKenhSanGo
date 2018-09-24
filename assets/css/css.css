@@ -125,6 +125,7 @@ a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-
     border-radius: 50%;
     line-height: 40px;
     z-index: 10;
+    bottom: 35px;
 }
 
 .call-button svg{
