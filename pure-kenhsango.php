@@ -5,7 +5,7 @@
  * Author: Vietmoz
  * Author URI: http://thietkeweb.vietmoz.com/vietmoz
  * Description: Plugin Pure KenhSanGo custom for kenhsango.com
- * Version: 1.1.3
+ * Version: 1.1.4
  * Text Domain: pure
  */
 
@@ -48,8 +48,8 @@ class KenhSanGo{
                 'github_url' => 'https://github.com/ThanhTung995/pureKenhSanGo', // the GitHub url of your GitHub repo
                 'zip_url' => 'https://github.com/ThanhTung995/pureKenhSanGo/archive/master.zip', // the zip url of the GitHub repo
                 'sslverify' => true, // whether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
-                'requires' => '1.1.3', // which version of WordPress does your plugin require?
-                'tested' => '1.1.3', // which version of WordPress is your plugin tested up to?
+                'requires' => '1.1.4', // which version of WordPress does your plugin require?
+                'tested' => '1.1.4', // which version of WordPress is your plugin tested up to?
                 'readme' => 'README.md', // which file to use as the readme for the version number
                 'access_token' => '', // Access private repositories by authorizing under Appearance > GitHub Updates when this example plugin is installed
             );

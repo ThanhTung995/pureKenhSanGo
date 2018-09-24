@@ -124,7 +124,63 @@ jQuery(document).ready(function () {
     if (width <= 767) {
         jQuery('body.single-product .call-button').html('<i class="pure fa-phone"></i><p>Bấm vào để gọi</p>')
     }
+    var val_add = jQuery('.single-product .pure-woocommerce-single__upper .summary form button.single_add_to_cart_button ').attr('value');
+    jQuery('.single-product .pure-woocommerce-single__upper .summary form ').append('<button type="submit" name="add-to-cart" value="'+val_add+'" class="single_add_to_cart_button2" style="background: #C92F2F !important;white-space: normal;color: #FFF;line-height: 18px !important;font-weight: normal;display: block !important;">Đặt mua online giá ưu đãi hơn</button>');
 
-    jQuery('.single-product .pure-woocommerce-single__upper .summary form button p').text('Đặt mua online giá ưu đãi hơn');
+    var number_total = Math.floor(Math.random() * 199);
+    setInterval(function () {
+        jQuery('.site-container').append('<div class="message_order_product"></div>');
+        var arr_person = [
+            'Anh Nam',
+            'Anh Thắng',
+            'Anh Tiến',
+            'Chị Oanh',
+            'Chị Thảo',
+            'Chị trang',
+            'Anh Thái',
+            'Chị Thắm',
+            'Anh Bình',
+            'Anh Sơn',
+            'Chị Nhung',
+            'Chị Hường',
+            'Chị Yến',
+            'Anh Thành'
+        ];
+        var arr_country = [
+          'Hà Nội','TP.Hồ Chí Minh','Đà Nẵng','Hải Phòng','Hưng Yên','Bắc Ninh'
+        ];
+        var count_arr_person = arr_person.length;
+        var count_arr_country = arr_country.length;
+
+        var ramdom_arr_person = Math.floor(Math.random() * count_arr_person);
+        var ramdom_arr_country = Math.floor(Math.random() * count_arr_country);
+        var ramdom_qty_product = Math.floor((Math.random() * 10) + 1);
+
+        arr_person = arr_person[ramdom_arr_person];
+        arr_country = arr_country[ramdom_arr_country];
+
+        jQuery('.message_order_product').text(arr_person+' đã đặt '+ramdom_qty_product+' sản phẩm về '+arr_country);
+        jQuery('.message_order_product').fadeIn();
+
+        setTimeout(function () {
+            jQuery('.message_order_product').fadeOut();
+            jQuery('.message_order_product').empty();
+        },4000);
+
+        setTimeout(function () {
+            jQuery('.message_order_product').text('Đặt ngay nào ! Số lượng khuyến mãi hiện chỉ còn '+number_total--);
+            jQuery('.message_order_product').fadeIn();
+        },6000);
+
+        setTimeout(function () {
+            jQuery('.message_order_product').fadeOut();
+            jQuery('.message_order_product').empty();
+        },8000);
+
+        if(number_total <= 0){
+            number_total = 199;
+        }
+
+    },12000)
 });
 

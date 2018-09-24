@@ -67,3 +67,37 @@ a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-
         line-height: 45px;
     }
 }
+
+.message_order_product{
+    padding: 15px;
+    background: #F4F4F4;
+    position: fixed;
+    bottom:134px;
+    right: 30px;
+    z-index: 100000000;
+    text-align: center;
+    color: #333333;
+    border-radius: 10px;
+}
+
+body.single-product .call-button p {
+    height: 44px !important;
+}
+
+.single-product .pure-woocommerce-single__upper .summary form button{
+    display: none !important;
+}
+a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-primary-bg--hover{
+    background: #47B64B !important;
+}
+
+@media screen and (max-width: 767px){
+    .single_add_to_cart_button2{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+    }
+    .message_order_product{
+        display: none !important;
+    }
+}
