@@ -139,7 +139,7 @@ body.single-product .call-button svg {
     margin-left: 0px !important;
 }
 body.single-product .call-button p{
-    margin-top: 0px !important;
+    margin-top: -40px !important;
 }
 @media screen and (max-width: 767px){
     .single_add_to_cart_button2{
