@@ -146,6 +146,7 @@ body.single-product .call-button p{
         background: #F4F4F4;
         padding: 0px !important;
         position: sticky !important;
+        position: -webkit-sticky !important;
         top: 0px;
         left: 0px;
         width: 100%;
