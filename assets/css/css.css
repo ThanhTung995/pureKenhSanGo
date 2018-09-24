@@ -135,6 +135,7 @@ a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-
         width: 100%;
         height: 70px;
         line-height: 70px;
+        margin-top: -15px !important;
     }
     .message_order_product{
         display: none !important;
