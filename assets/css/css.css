@@ -72,8 +72,8 @@ a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-
     padding: 15px;
     background: #F4F4F4;
     position: fixed;
-    bottom:100px;
-    right: 30px;
+    bottom: 30px;
+    left: 30px;
     z-index: 100000000;
     text-align: center;
     color: #333333;
@@ -89,6 +89,50 @@ body.single-product .call-button p {
 }
 a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-primary-bg--hover{
     background: #47B64B !important;
+}
+
+.call-button{
+    transform: none !important;
+}
+
+.call-button p{
+    position: absolute;
+    width: 200px;
+    background: #47B64B;
+    border-radius: 25px;
+    margin-top: -40px;
+    height: 40px;
+    z-index: -1;
+    line-height: 40px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.call-button p:before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #2B8B2F !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.call-button{
+    width: 40px;
+    height: 40px;
+    background: #2B8B2F !important;
+    border-radius: 50%;
+    line-height: 40px;
+    z-index: 10;
+}
+
+.call-button svg{
+    font-size: 15px;
+}
+
+a.call-button.bg-primary-color.bg-secondary-color--hover.color-primary-bg.color-primary-bg--hover{
+    background: #2B8B2F !important;
 }
 
 @media screen and (max-width: 767px){

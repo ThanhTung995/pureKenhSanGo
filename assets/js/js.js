@@ -116,14 +116,14 @@ jQuery(document).ready(function () {
         return false
     }
     change_button_woo();
+
     jQuery('.single-product .pure-woocommerce-single__upper .summary .btn-call-single-product').on('click', function () {
         jQuery(this).hide();
         jQuery('a.btn-call-single-product.btn-call-single-product_edit').addClass('active')
     });
-    var width = jQuery(window).width();
-    if (width <= 767) {
-        jQuery('body.single-product .call-button').html('<i class="pure fa-phone"></i><p>Bấm vào để gọi</p>')
-    }
+
+    jQuery('.call-button').html('<i class="pure fa-phone"></i><p>Bấm vào để gọi</p>');
+
     var val_add = jQuery('.single-product .pure-woocommerce-single__upper .summary form button.single_add_to_cart_button ').attr('value');
     jQuery('.single-product .pure-woocommerce-single__upper .summary form ').append('<button type="submit" name="add-to-cart" value="'+val_add+'" class="single_add_to_cart_button2" style="background: #C92F2F !important;white-space: normal;color: #FFF;line-height: 18px !important;font-weight: normal;display: block !important;">Đặt mua online giá ưu đãi hơn</button>');
 
